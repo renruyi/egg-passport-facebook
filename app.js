@@ -23,8 +23,8 @@ module.exports = app => {
     const user = {
       provider: 'facebook',
       id: profile.id,
-      email: profile.email,
-      name: profile.displayName,
+      email: profile.emails && profile.emails[0] && profile.emails[0].value,
+      name: profile.name,
       displayName: profile.displayName,
       photo: profile.photos && profile.photos[0] && profile.photos[0].value,
       token,

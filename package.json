@@ -1,6 +1,6 @@
 {
   "name": "egg-passport-facebook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "facebook passport plugin for egg",
   "eggPlugin": {
     "name": "passportFacebook",
